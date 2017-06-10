@@ -1,12 +1,12 @@
 h1 {
     color: orange;
-    font-family: Lato, Helvetica, sans-serif;
+    font-family: Rochester, cursive;
     font-size: 28px;
 }
 
 li {
     color: #008CBA;
-    font-family: Rochester, cursive;
+    font-family: Lato, Helvetica, sans-serif;
     font-size: 20px;
     letter-spacing: 1.5px;
 }
