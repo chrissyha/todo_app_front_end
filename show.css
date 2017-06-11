@@ -1,4 +1,8 @@
-ul {
-    list-style-type: none;
-    
+.textbackground span {
+    background-color: orange;
+}
+
+.textbackground span:hover{
+  background-color: yellow;
+  border-radius: 3px;
 }
