@@ -4,21 +4,27 @@
     <link rel="stylesheet" href="index.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Rochester"/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
   </head>
   
   <body>
       <h1>Camping Prep</h1>
       
       <ul style="list-style-type:none">
-          <li><input type="checkbox" name="camping" value="trail"><a href="show.html">Pick trails</a></input></li>
-          <li><input type="checkbox" name="camping" value="basics">Pack basics: tent, pack, sleeping bag, sleeping pad, bladder, poles</input></li>
-          <li><input type="checkbox" name="camping" value="food">Buy food: bars or meals</input></li>
-          <li><input type="checkbox" name="camping" value="shoes">Pack: Boots or sneakers</input></li>
-          <li><input type="checkbox" name="camping" value="shoes">Pack: socks!!</input></li>
-          <li>
-            <input type="text" placeholder="Add new to do">
-          
-            <input type="submit" value="Add new to do">
+          <li><span><input type="checkbox" name="camping" value="trail"><a href="show.html">Pick trails</a></input></span></li>
+          <li><span><input type="checkbox" name="camping" value="basics">Pack basics: tent, pack, sleeping bag, sleeping pad, bladder, poles</input></span></li>
+          <li><span><input type="checkbox" name="camping" value="food">Buy food: bars or meals</input></span></li>
+          <li><span><input type="checkbox" name="camping" value="shoes">Pack: Boots or sneakers</input></span></li>
+          <li><span><input type="checkbox" name="camping" value="shoes">Pack: socks!!</input></span></li>
+          <li><span>
+            <div id="new-todo-block">
+            
+              <input type="text" id="new-todo-description" placeholder="Add new to do">
+            
+              <input type="submit" value="Add new to do" id="add-new-todo-button"></span>
+            </div>
           </li>
       </ul>
 

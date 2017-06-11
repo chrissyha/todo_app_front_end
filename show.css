@@ -1,8 +1,3 @@
-.textbackground span {
-    background-color: orange;
-}
-
-.textbackground span:hover{
-  background-color: yellow;
-  border-radius: 3px;
+.textbackground span:hover {
+  background-color:cornsilk;
 }
